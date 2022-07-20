@@ -11,6 +11,7 @@ function UseMemo() {
         bien.current.focus();
     };
     //sủ dụng vì khi go thì tong bi rerander- nen sử dụng use memo
+    //test git
     const tong1 = useMemo(() => {
         const tong = listcart.reduce((bien, giatri) => {
             return bien + giatri.gia;
